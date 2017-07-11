@@ -1,0 +1,37 @@
+﻿生成启动时间为 2016/8/13 22:49:35。
+     1>项目“E:\VS2010\VS2010Storage\BookManageSystem\BookManageSystem\BookManageSystem.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\BookManageSystem.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\BookManageSystem.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\MySQL5.7.13\mysql-5.7.13-winx64\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\BookManageSystem.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\MySQL5.7.13\mysql-5.7.13-winx64\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BookManageSystem.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BookManageSystem.cpp BookManageSystemDlg.cpp MysqlOperation.cpp VerificationCode.cpp
+         VerificationCode.cpp
+     1>e:\vs2010\vs2010storage\bookmanagesystem\bookmanagesystem\verificationcode.cpp(165): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+         MysqlOperation.cpp
+         BookManageSystemDlg.cpp
+         BookManageSystem.cpp
+         正在生成代码...
+     1>e:\vs2010\vs2010storage\bookmanagesystem\bookmanagesystem\verificationcode.cpp(160): warning C4715: “CVerificationCode::ShengChengYanZhenMa”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\BookManageSystem.res" BookManageSystem.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BookManageSystem.exe.embed.manifest.res" Debug\BookManageSystem_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010\VS2010Storage\BookManageSystem\Debug\BookManageSystem.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\BookManageSystem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010\VS2010Storage\BookManageSystem\Debug\BookManageSystem.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010\VS2010Storage\BookManageSystem\Debug\BookManageSystem.lib" /MACHINE:X86 Debug\BookManageSystem.res
+         Debug\BookManageSystem.exe.embed.manifest.res
+         Debug\BookManageSystem.obj
+         Debug\BookManageSystemDlg.obj
+         Debug\MysqlOperation.obj
+         Debug\stdafx.obj
+         Debug\VerificationCode.obj
+     1>MysqlOperation.obj : error LNK2019: 无法解析的外部符号 _mysql_real_connect@32，该符号在函数 "public: int __thiscall CMysqlOperation::CMysqlConnect(void)" (?CMysqlConnect@CMysqlOperation@@QAEHXZ) 中被引用
+     1>MysqlOperation.obj : error LNK2019: 无法解析的外部符号 _mysql_init@4，该符号在函数 "public: int __thiscall CMysqlOperation::CMysqlConnect(void)" (?CMysqlConnect@CMysqlOperation@@QAEHXZ) 中被引用
+     1>E:\VS2010\VS2010Storage\BookManageSystem\Debug\BookManageSystem.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“E:\VS2010\VS2010Storage\BookManageSystem\BookManageSystem\BookManageSystem.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.84

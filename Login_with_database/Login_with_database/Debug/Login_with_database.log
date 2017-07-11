@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/5/14 20:55:49。
+     1>项目“F:\VS2010Storage\Login_with_database\Login_with_database\Login_with_database.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Login_with_database.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         d:\VS2010SetupFile\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Login_with_database.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SigninDlg.cpp
+         SigninDlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\Login_with_database.res" Login_with_database.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Login_with_database.exe.embed.manifest.res" Debug\Login_with_database_manifest.rc 
+       Link:
+         d:\VS2010SetupFile\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2010Storage\Login_with_database\Debug\Login_with_database.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Login_with_database.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\VS2010Storage\Login_with_database\Debug\Login_with_database.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2010Storage\Login_with_database\Debug\Login_with_database.lib" /MACHINE:X86 Debug\Login_with_database.res
+         Debug\Login_with_database.exe.embed.manifest.res
+         Debug\Login_with_database.obj
+         Debug\Login_with_databaseDlg.obj
+         Debug\MainView.obj
+         Debug\SigninDlg.obj
+         Debug\SqlOperation.obj
+         Debug\stdafx.obj
+     1>SigninDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall CSigninDlg::OnBnClickedCheckusername(void)" (?OnBnClickedCheckusername@CSigninDlg@@QAEXXZ)
+     1>SigninDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall CSigninDlg::OnBnClickedFinishsigin(void)" (?OnBnClickedFinishsigin@CSigninDlg@@QAEXXZ)
+     1>F:\VS2010Storage\Login_with_database\Debug\Login_with_database.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“F:\VS2010Storage\Login_with_database\Login_with_database\Login_with_database.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.24

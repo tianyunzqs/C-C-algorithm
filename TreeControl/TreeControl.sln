@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeControl", "TreeControl\TreeControl.vcxproj", "{D68A37D4-B5BC-4135-B605-B53F88788A9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D68A37D4-B5BC-4135-B605-B53F88788A9C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D68A37D4-B5BC-4135-B605-B53F88788A9C}.Debug|Win32.Build.0 = Debug|Win32
+		{D68A37D4-B5BC-4135-B605-B53F88788A9C}.Release|Win32.ActiveCfg = Release|Win32
+		{D68A37D4-B5BC-4135-B605-B53F88788A9C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

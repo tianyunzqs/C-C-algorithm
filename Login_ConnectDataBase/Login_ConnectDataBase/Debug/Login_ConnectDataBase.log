@@ -1,0 +1,35 @@
+﻿生成启动时间为 2016/6/7 19:29:30。
+     1>项目“F:\VS2010Storage\Login_ConnectDataBase\Login_ConnectDataBase\Login_ConnectDataBase.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Login_ConnectDataBase.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\Login_ConnectDataBase.res" Login_ConnectDataBase.rc 
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\VS2010SetupFile\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2010Storage\Login_ConnectDataBase\Debug\Login_ConnectDataBase.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Login_ConnectDataBase.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\VS2010Storage\Login_ConnectDataBase\Debug\Login_ConnectDataBase.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2010Storage\Login_ConnectDataBase\Debug\Login_ConnectDataBase.lib" /MACHINE:X86 Debug\Login_ConnectDataBase.res
+         Debug\Login_ConnectDataBase.exe.embed.manifest.res
+         Debug\ChangeCode.obj
+         Debug\Login_ConnectDataBase.obj
+         Debug\Login_ConnectDataBaseDlg.obj
+         Debug\MainView.obj
+         Debug\SigInDlg.obj
+         Debug\SqlOperation.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Login_ConnectDataBase.exe.embed.manifest" /manifest Debug\Login_ConnectDataBase.exe.intermediate.manifest d:\VS2010SetupFile\VC\Include\Manifest\dpiaware.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Login_ConnectDataBase.vcxproj -> F:\VS2010Storage\Login_ConnectDataBase\Debug\Login_ConnectDataBase.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Login_ConnectDataBase.unsuccessfulbuild”。
+         正在对“Debug\Login_ConnectDataBase.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\VS2010Storage\Login_ConnectDataBase\Login_ConnectDataBase\Login_ConnectDataBase.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.27

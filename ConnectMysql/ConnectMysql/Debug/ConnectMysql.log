@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/8/13 22:44:54。
+     1>项目“E:\VS2010\VS2010Storage\ConnectMysql\ConnectMysql\ConnectMysql.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\ConnectMysql.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010\VS2010Storage\ConnectMysql\Debug\ConnectMysql.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\ConnectMysql.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010\VS2010Storage\ConnectMysql\Debug\ConnectMysql.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010\VS2010Storage\ConnectMysql\Debug\ConnectMysql.lib" /MACHINE:X86 Debug\ConnectMysql.res
+         Debug\ConnectMysql.exe.embed.manifest.res
+         Debug\ConnectMysql.obj
+         Debug\ConnectMysqlDlg.obj
+         Debug\stdafx.obj
+     1>ConnectMysqlDlg.obj : error LNK2019: 无法解析的外部符号 _mysql_real_connect@32，该符号在函数 "public: void __thiscall CConnectMysqlDlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CConnectMysqlDlg@@QAEXXZ) 中被引用
+     1>ConnectMysqlDlg.obj : error LNK2019: 无法解析的外部符号 _mysql_init@4，该符号在函数 "public: void __thiscall CConnectMysqlDlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CConnectMysqlDlg@@QAEXXZ) 中被引用
+     1>E:\VS2010\VS2010Storage\ConnectMysql\Debug\ConnectMysql.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“E:\VS2010\VS2010Storage\ConnectMysql\ConnectMysql\ConnectMysql.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.76

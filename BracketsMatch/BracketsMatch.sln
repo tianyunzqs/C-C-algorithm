@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BracketsMatch", "BracketsMatch\BracketsMatch.vcxproj", "{99BB45B0-E4AC-4D2E-B222-3E43B390880C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99BB45B0-E4AC-4D2E-B222-3E43B390880C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99BB45B0-E4AC-4D2E-B222-3E43B390880C}.Debug|Win32.Build.0 = Debug|Win32
+		{99BB45B0-E4AC-4D2E-B222-3E43B390880C}.Release|Win32.ActiveCfg = Release|Win32
+		{99BB45B0-E4AC-4D2E-B222-3E43B390880C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

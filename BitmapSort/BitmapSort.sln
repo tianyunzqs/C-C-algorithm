@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitmapSort", "BitmapSort\BitmapSort.vcxproj", "{D643B5B2-8071-48E6-AE03-1DCE849B29C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D643B5B2-8071-48E6-AE03-1DCE849B29C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D643B5B2-8071-48E6-AE03-1DCE849B29C3}.Debug|Win32.Build.0 = Debug|Win32
+		{D643B5B2-8071-48E6-AE03-1DCE849B29C3}.Release|Win32.ActiveCfg = Release|Win32
+		{D643B5B2-8071-48E6-AE03-1DCE849B29C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

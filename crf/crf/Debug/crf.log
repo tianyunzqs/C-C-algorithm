@@ -1,0 +1,274 @@
+﻿生成启动时间为 2016/9/10 11:20:14。
+     1>项目“E:\VS2010\VS2010Storage\crf\crf\crf.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\crf.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\crf.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\VS2010\VS2010Storage\crf\crf /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\crf_learn.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\crf_test.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\encoder.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\feature.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\feature_cache.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\feature_index.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\lbfgs.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\libcrfpp.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\node.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\param.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\path.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\sdk\example.cpp" "D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58\tagger.cpp"
+         tagger.cpp
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.h(158): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(37): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(731): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(773): warning C4273: “CRFPP::createTagger”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(347) : 参见“createTagger”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(783): warning C4273: “CRFPP::createTagger”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(351) : 参见“createTagger”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(793): warning C4273: “CRFPP::createModel”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(355) : 参见“createModel”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(804): warning C4273: “CRFPP::createModelFromArray”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(358) : 参见“createModelFromArray”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(814): warning C4273: “CRFPP::createModel”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(364) : 参见“createModel”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(825): warning C4273: “CRFPP::createModelFromArray”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(367) : 参见“createModelFromArray”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(835): warning C4273: “CRFPP::getTaggerError”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(372) : 参见“getTaggerError”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(839): warning C4273: “CRFPP::getLastError”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(375) : 参见“getLastError”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(894): warning C4273: “crfpp_test”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(91) : 参见“crfpp_test”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.cpp(900): warning C4273: “crfpp_test2”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(92) : 参见“crfpp_test2”的前一个定义
+         example.cpp
+         path.cpp
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         param.cpp
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\param.cpp(27): error C2065: “PACKAGE”: 未声明的标识符
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\param.cpp(27): error C2065: “VERSION”: 未声明的标识符
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\param.cpp(199): error C2065: “PACKAGE”: 未声明的标识符
+         node.cpp
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         libcrfpp.cpp
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(61): warning C4273: “crfpp_model_new”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(45) : 参见“crfpp_model_new”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(69): warning C4273: “crfpp_model_new2”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(46) : 参见“crfpp_model_new2”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(79): warning C4273: “crfpp_model_from_array_new”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(47) : 参见“crfpp_model_from_array_new”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(90): warning C4273: “crfpp_model_from_array_new2”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(48) : 参见“crfpp_model_from_array_new2”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(99): warning C4273: “crfpp_model_get_template”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(49) : 参见“crfpp_model_get_template”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(104): warning C4273: “crfpp_model_destroy”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(50) : 参见“crfpp_model_destroy”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(109): warning C4273: “crfpp_model_strerror”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(51) : 参见“crfpp_model_strerror”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(116): warning C4273: “crfpp_model_new_tagger”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(52) : 参见“crfpp_model_new_tagger”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(121): warning C4273: “crfpp_new”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(54) : 参见“crfpp_new”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(137): warning C4273: “crfpp_strerror”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(95) : 参见“crfpp_strerror”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(144): warning C4273: “crfpp_destroy”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(56) : 参见“crfpp_destroy”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(149): warning C4273: “crfpp_set_model”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(57) : 参见“crfpp_set_model”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(154): warning C4273: “crfpp_add2”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(58) : 参见“crfpp_add2”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(158): warning C4273: “crfpp_add”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(59) : 参见“crfpp_add”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(162): warning C4273: “crfpp_size”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(60) : 参见“crfpp_size”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(166): warning C4273: “crfpp_xsize”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(61) : 参见“crfpp_xsize”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(170): warning C4273: “crfpp_result”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(64) : 参见“crfpp_result”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(174): warning C4273: “crfpp_answer”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(65) : 参见“crfpp_answer”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(178): warning C4273: “crfpp_y”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(66) : 参见“crfpp_y”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(182): warning C4273: “crfpp_ysize”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(67) : 参见“crfpp_ysize”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(186): warning C4273: “crfpp_prob”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(68) : 参见“crfpp_prob”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(190): warning C4273: “crfpp_prob2”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(69) : 参见“crfpp_prob2”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(194): warning C4273: “crfpp_prob3”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(70) : 参见“crfpp_prob3”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(198): warning C4273: “crfpp_set_penalty”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(71) : 参见“crfpp_set_penalty”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(202): warning C4273: “crfpp_penalty”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(72) : 参见“crfpp_penalty”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(206): warning C4273: “crfpp_alpha”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(73) : 参见“crfpp_alpha”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(210): warning C4273: “crfpp_beta”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(74) : 参见“crfpp_beta”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(214): warning C4273: “crfpp_best_cost”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(80) : 参见“crfpp_best_cost”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(218): warning C4273: “crfpp_emisstion_cost”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(75) : 参见“crfpp_emisstion_cost”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(226): warning C4273: “crfpp_next_transition_cost”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(76) : 参见“crfpp_next_transition_cost”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(230): warning C4273: “crfpp_prev_transition_cost”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(78) : 参见“crfpp_prev_transition_cost”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(235): warning C4273: “crfpp_next_transition_vector”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(82) : 参见“crfpp_next_transition_vector”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(240): warning C4273: “crfpp_prev_transition_vector”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(84) : 参见“crfpp_prev_transition_vector”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(244): warning C4273: “crfpp_dsize”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(62) : 参见“crfpp_dsize”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(248): warning C4273: “crfpp_weight_vector”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(63) : 参见“crfpp_weight_vector”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(252): warning C4273: “crfpp_Z”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(86) : 参见“crfpp_Z”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(256): warning C4273: “crfpp_parse”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(87) : 参见“crfpp_parse”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(260): warning C4273: “crfpp_empty”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(88) : 参见“crfpp_empty”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(264): warning C4273: “crfpp_clear”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(89) : 参见“crfpp_clear”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(268): warning C4273: “crfpp_next”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(90) : 参见“crfpp_next”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(272): warning C4273: “crfpp_yname”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(96) : 参见“crfpp_yname”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(276): warning C4273: “crfpp_y2”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(97) : 参见“crfpp_y2”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(280): warning C4273: “crfpp_x”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(98) : 参见“crfpp_x”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(284): warning C4273: “crfpp_x2”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(99) : 参见“crfpp_x2”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(288): warning C4273: “crfpp_parse_tostr”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(100) : 参见“crfpp_parse_tostr”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(292): warning C4273: “crfpp_parse_tostr2”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(101) : 参见“crfpp_parse_tostr2”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(297): warning C4273: “crfpp_parse_tostr3”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(103) : 参见“crfpp_parse_tostr3”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(301): warning C4273: “crfpp_tostr”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(105) : 参见“crfpp_tostr”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(305): warning C4273: “crfpp_tostr2”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(106) : 参见“crfpp_tostr2”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(309): warning C4273: “crfpp_set_vlevel”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(108) : 参见“crfpp_set_vlevel”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(313): warning C4273: “crfpp_vlevel”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(109) : 参见“crfpp_vlevel”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(317): warning C4273: “crfpp_set_cost_factor”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(110) : 参见“crfpp_set_cost_factor”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(321): warning C4273: “crfpp_cost_factor”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(111) : 参见“crfpp_cost_factor”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\libcrfpp.cpp(325): warning C4273: “crfpp_set_nbest”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(112) : 参见“crfpp_set_nbest”的前一个定义
+         lbfgs.cpp
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\numeric(106): warning C4996: 'std::_Inner_product1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\numeric(90) : 参见“std::_Inner_product1”的声明
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\lbfgs.cpp(54): 参见对正在编译的函数 模板 实例化“_Ty std::inner_product<const double*,const double*,double>(_InIt1,_InIt1,_InIt2,_Ty)”的引用
+                 with
+                 [
+                     _Ty=double,
+                     _InIt1=const double *,
+                     _InIt2=const double *
+                 ]
+         feature_index.cpp
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\feature_index.cpp(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\darts.h(189): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\darts.h(129): 编译类 模板 成员函数“size_t CRFPP::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>::insert(const std::vector<_Ty> &)”时
+                 with
+                 [
+                     node_type_=char,
+                     node_u_type_=unsigned char,
+                     array_type_=int,
+                     array_u_type_=unsigned int,
+                     _Ty=CRFPP::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int>::node_t
+                 ]
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\feature_index.h(125): 参见对正在编译的类 模板 实例化“CRFPP::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>”的引用
+                 with
+                 [
+                     node_type_=char,
+                     node_u_type_=unsigned char,
+                     array_type_=int,
+                     array_u_type_=unsigned int
+                 ]
+         feature_cache.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\feature_cache.cpp(15): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<std::_Vector_const_iterator<_Myvec>,int*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=int *,
+                     _Myvec=std::_Vector_val<int,std::allocator<int>>,
+                     _InIt=std::_Vector_const_iterator<std::_Vector_val<int,std::allocator<int>>>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\feature_cache.cpp(30): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<std::_Vector_iterator<_Myvec>,int*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=int *,
+                     _Myvec=std::_Vector_val<int,std::allocator<int>>,
+                     _InIt=std::_Vector_iterator<std::_Vector_val<int,std::allocator<int>>>
+                 ]
+         feature.cpp
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.h(158): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         encoder.cpp
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\tagger.h(158): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\encoder.cpp(157): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\encoder.cpp(396): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\encoder.cpp(402): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\encoder.cpp(408): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\encoder.cpp(515): warning C4273: “crfpp_learn2”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(94) : 参见“crfpp_learn2”的前一个定义
+     1>d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\encoder.cpp(521): warning C4273: “crfpp_learn”: dll 链接不一致
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\crfpp.h(93) : 参见“crfpp_learn”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2692): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2715): 参见对正在编译的函数 模板 实例化“void std::_Fill<float*,_Ty>(_FwdIt,_FwdIt,const _Ty &)”的引用
+                 with
+                 [
+                     _Ty=double,
+                     _FwdIt=float *
+                 ]
+                 d:\nlp\crf++\crf++-0.58-tar-gz\crf++-0.58\encoder.cpp(107): 参见对正在编译的函数 模板 实例化“void std::fill<std::_Vector_iterator<_Myvec>,double>(_FwdIt,_FwdIt,const _Ty &)”的引用
+                 with
+                 [
+                     _Myvec=std::_Vector_val<float,std::allocator<float>>,
+                     _FwdIt=std::_Vector_iterator<std::_Vector_val<float,std::allocator<float>>>,
+                     _Ty=double
+                 ]
+         crf_test.cpp
+         crf_learn.cpp
+         正在生成代码...
+     1>已完成生成项目“E:\VS2010\VS2010Storage\crf\crf\crf.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:18.80

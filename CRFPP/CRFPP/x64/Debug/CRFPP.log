@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/9/10 11:24:30。
+     1>项目“E:\VS2010\VS2010Storage\CRFPP\CRFPP\CRFPP.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Debug\CRFPP.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“x64\Debug\CRFPP.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"D:\NLP\crf++\CRF++-0.58-tar-gz\CRF++-0.58" /I"C:\Program Files\Java\jdk1.8.0_92\include\win32" /I"C:\Program Files\Java\jdk1.8.0_92\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CRFPP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt D:\NLP\crf++\tmp\CRFPP_wrap.cxx
+         CRFPP_wrap.cxx
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\CRFPP.dll.embed.manifest.res" x64\Debug\CRFPP_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010\VS2010Storage\CRFPP\x64\Debug\CRFPP.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Java\jdk1.8.0_92\include\win32" /LIBPATH:"C:\Program Files\Java\jdk1.8.0_92\include" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\CRFPP.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010\VS2010Storage\CRFPP\x64\Debug\CRFPP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010\VS2010Storage\CRFPP\x64\Debug\CRFPP.lib" /MACHINE:X64 /DLL x64\Debug\CRFPP.dll.embed.manifest.res
+         x64\Debug\CRFPP_wrap.obj
+         "D:\NLP\crf++\CRF++-0.58-zip\CRF++-0.58\sdk\libcrfpp.lib"
+            正在创建库 E:\VS2010\VS2010Storage\CRFPP\x64\Debug\CRFPP.lib 和对象 E:\VS2010\VS2010Storage\CRFPP\x64\Debug\CRFPP.exp
+     1>CRFPP_wrap.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) char const * __cdecl CRFPP::getLastError(void)" (__imp_?getLastError@CRFPP@@YAPEBDXZ)，该符号在函数 "class CRFPP::Model * __cdecl new_CRFPP_Model(char const *)" (?new_CRFPP_Model@@YAPEAVModel@CRFPP@@PEBD@Z) 中被引用
+     1>CRFPP_wrap.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) class CRFPP::Model * __cdecl CRFPP::createModel(char const *)" (__imp_?createModel@CRFPP@@YAPEAVModel@1@PEBD@Z)，该符号在函数 "class CRFPP::Model * __cdecl new_CRFPP_Model(char const *)" (?new_CRFPP_Model@@YAPEAVModel@CRFPP@@PEBD@Z) 中被引用
+     1>CRFPP_wrap.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) class CRFPP::Tagger * __cdecl CRFPP::createTagger(char const *)" (__imp_?createTagger@CRFPP@@YAPEAVTagger@1@PEBD@Z)，该符号在函数 "class CRFPP::Tagger * __cdecl new_CRFPP_Tagger(char const *)" (?new_CRFPP_Tagger@@YAPEAVTagger@CRFPP@@PEBD@Z) 中被引用
+     1>E:\VS2010\VS2010Storage\CRFPP\x64\Debug\CRFPP.dll : fatal error LNK1120: 3 个无法解析的外部命令
+     1>已完成生成项目“E:\VS2010\VS2010Storage\CRFPP\CRFPP\CRFPP.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.32

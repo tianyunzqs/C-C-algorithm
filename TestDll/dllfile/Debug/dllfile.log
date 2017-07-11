@@ -1,0 +1,32 @@
+﻿生成启动时间为 2015/9/30 21:20:30。
+     1>项目“E:\VS2010Storage\TestDll\dllfile\dllfile.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\dllfile.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\dllfile.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\VS2010SetupFile\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLFILE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllfile.cpp
+         dllfile.cpp
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\dllfile.dll.embed.manifest.res" Debug\dllfile_manifest.rc 
+       Link:
+         e:\VS2010SetupFile\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010Storage\TestDll\Debug\dllfile.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\dllfile.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010Storage\TestDll\Debug\dllfile.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010Storage\TestDll\Debug\dllfile.lib" /MACHINE:X86 /DLL Debug\dllfile.dll.embed.manifest.res
+         Debug\dllfile.obj
+            正在创建库 E:\VS2010Storage\TestDll\Debug\dllfile.lib 和对象 E:\VS2010Storage\TestDll\Debug\dllfile.exp
+       Manifest:
+         正在删除文件“Debug\dllfile.dll.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\dllfile.dll.embed.manifest" /manifest Debug\dllfile.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\dllfile.dll.embed.manifest.res" Debug\dllfile_manifest.rc 
+       LinkEmbedManifest:
+         e:\VS2010SetupFile\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010Storage\TestDll\Debug\dllfile.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\dllfile.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010Storage\TestDll\Debug\dllfile.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010Storage\TestDll\Debug\dllfile.lib" /MACHINE:X86 /DLL Debug\dllfile.dll.embed.manifest.res
+         Debug\dllfile.obj
+            正在创建库 E:\VS2010Storage\TestDll\Debug\dllfile.lib 和对象 E:\VS2010Storage\TestDll\Debug\dllfile.exp
+         dllfile.vcxproj -> E:\VS2010Storage\TestDll\Debug\dllfile.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\dllfile.unsuccessfulbuild”。
+         正在对“Debug\dllfile.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VS2010Storage\TestDll\dllfile\dllfile.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.17

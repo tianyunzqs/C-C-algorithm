@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BaoShuGame">
+</Property><Property Name="解决方案文件" Value="E:\Visual Studio 2008 Storage\CyuyanTry\BaoShuGame\BaoShuGame.sln">
+</Property><Property Name="用户选项文件" Value="E:\Visual Studio 2008 Storage\CyuyanTry\BaoShuGame\BaoShuGame.suo">
+</Property><Property Name="Date" Value="2015年8月4日">
+</Property><Property Name="Time" Value="20:48">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="BaoShuGame.sln" Description="文件已成功备份为 E:\Visual Studio 2008 Storage\CyuyanTry\BaoShuGame\BaoShuGame.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="BaoShuGame.suo" Description="文件已成功备份为 E:\Visual Studio 2008 Storage\CyuyanTry\BaoShuGame\BaoShuGame.suo.old">
+</Event><Event ErrorLevel="0" Project="BaoShuGame" Source="BaoShuGame\BaoShuGame.vcproj" Description="Converting project file 'E:\Visual Studio 2008 Storage\CyuyanTry\BaoShuGame\BaoShuGame\BaoShuGame.vcproj'.">
+</Event><Event ErrorLevel="1" Project="BaoShuGame" Source="BaoShuGame\BaoShuGame.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="BaoShuGame" Source="BaoShuGame\BaoShuGame.vcproj" Description="Done converting to new project file 'E:\Visual Studio 2008 Storage\CyuyanTry\BaoShuGame\BaoShuGame\BaoShuGame.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="BaoShuGame" Source="BaoShuGame\BaoShuGame.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BaoShuGame.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="BaoShuGame.sln" Description="Converted">
+</Event></UpgradeLog>

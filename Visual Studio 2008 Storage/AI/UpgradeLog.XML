@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AI">
+</Property><Property Name="解决方案文件" Value="E:\VS2010Storage\Visual Studio 2008 Storage\AI\AI.sln">
+</Property><Property Name="用户选项文件" Value="E:\VS2010Storage\Visual Studio 2008 Storage\AI\AI.suo">
+</Property><Property Name="Date" Value="2015年11月3日">
+</Property><Property Name="Time" Value="11:11">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AI.sln" Description="文件已成功备份为 E:\VS2010Storage\Visual Studio 2008 Storage\AI\AI.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="AI.suo" Description="文件已成功备份为 E:\VS2010Storage\Visual Studio 2008 Storage\AI\AI.suo.old">
+</Event><Event ErrorLevel="0" Project="AI" Source="AI\AI.vcproj" Description="Converting project file 'E:\VS2010Storage\Visual Studio 2008 Storage\AI\AI\AI.vcproj'.">
+</Event><Event ErrorLevel="1" Project="AI" Source="AI\AI.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="AI" Source="AI\AI.vcproj" Description="Done converting to new project file 'E:\VS2010Storage\Visual Studio 2008 Storage\AI\AI\AI.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="AI" Source="AI\AI.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="AI.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="AI.sln" Description="Converted">
+</Event></UpgradeLog>

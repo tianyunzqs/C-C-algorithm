@@ -1,0 +1,23 @@
+﻿生成启动时间为 2015/11/3 11:47:01。
+     1>项目“E:\VS2010Storage\Visual Studio 2008 Storage\C++tryFile\AnimalIdentification3\AnimalIdentification\AnimalIdentification.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\AnimalIdentification.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\AnimalIdentification.res" AnimalIdentification.rc 
+         
+     1>AnimalIdentification.rc(194): error RC2135: file not found: \
+     1>AnimalIdentification.rc(195): error RC2135: file not found: \
+     1>AnimalIdentification.rc(196): error RC2135: file not found: \
+     1>AnimalIdentification.rc(197): error RC2135: file not found: \
+     1>AnimalIdentification.rc(198): error RC2135: file not found: \
+     1>AnimalIdentification.rc(199): error RC2135: file not found: \
+     1>AnimalIdentification.rc(200): error RC2135: file not found: \
+     1>AnimalIdentification.rc(201): error RC2135: file not found: \
+     1>已完成生成项目“E:\VS2010Storage\Visual Studio 2008 Storage\C++tryFile\AnimalIdentification3\AnimalIdentification\AnimalIdentification.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.24

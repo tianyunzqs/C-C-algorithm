@@ -1,0 +1,70 @@
+﻿生成启动时间为 2015/9/30 10:51:33。
+     1>项目“E:\VS2010Storage\mydll\mydll\mydll.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\mydll.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\mydll.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\VS2010SetupFile\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MYDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\mydll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\VS2010SetupFile\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MYDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\mydll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt circle.cpp point.cpp
+         point.cpp
+     1>e:\vs2010storage\mydll\mydll\point.cpp(4): warning C4603: “DLL_FILE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 e:\vs2010storage\mydll\mydll\point.cpp(7) : 使用预编译头
+     1>e:\vs2010storage\mydll\mydll\point.cpp(13): warning C4273: “point::point”: dll 链接不一致
+                 e:\vs2010storage\mydll\mydll\point.h(13) : 参见“{ctor}”的前一个定义
+     1>e:\vs2010storage\mydll\mydll\point.cpp(20): warning C4273: “point::point”: dll 链接不一致
+                 e:\vs2010storage\mydll\mydll\point.h(14) : 参见“{ctor}”的前一个定义
+         circle.cpp
+     1>e:\vs2010storage\mydll\mydll\circle.cpp(2): warning C4603: “DLL_FILE”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 e:\vs2010storage\mydll\mydll\circle.cpp(5) : 使用预编译头
+     1>e:\vs2010storage\mydll\mydll\circle.cpp(11): warning C4273: “circle::circle”: dll 链接不一致
+                 e:\vs2010storage\mydll\mydll\circle.h(17) : 参见“{ctor}”的前一个定义
+     1>e:\vs2010storage\mydll\mydll\circle.cpp(18): warning C4273: “circle::GetArea”: dll 链接不一致
+                 e:\vs2010storage\mydll\mydll\circle.h(16) : 参见“GetArea”的前一个定义
+     1>e:\vs2010storage\mydll\mydll\circle.cpp(19): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>e:\vs2010storage\mydll\mydll\circle.cpp(24): warning C4273: “circle::GetGirth”: dll 链接不一致
+                 e:\vs2010storage\mydll\mydll\circle.h(15) : 参见“GetGirth”的前一个定义
+     1>e:\vs2010storage\mydll\mydll\circle.cpp(25): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>e:\vs2010storage\mydll\mydll\circle.cpp(30): warning C4273: “circle::SetCentre”: dll 链接不一致
+                 e:\vs2010storage\mydll\mydll\circle.h(13) : 参见“SetCentre”的前一个定义
+     1>e:\vs2010storage\mydll\mydll\circle.cpp(36): warning C4273: “circle::SetRadius”: dll 链接不一致
+                 e:\vs2010storage\mydll\mydll\circle.h(14) : 参见“SetRadius”的前一个定义
+         正在生成代码...
+         e:\VS2010SetupFile\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MYDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mydll.dll.embed.manifest.res" Debug\mydll_manifest.rc 
+       Link:
+         e:\VS2010SetupFile\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010Storage\mydll\Debug\mydll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mydll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010Storage\mydll\Debug\mydll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010Storage\mydll\Debug\mydll.lib" /MACHINE:X86 /DLL Debug\mydll.dll.embed.manifest.res
+         Debug\circle.obj
+         Debug\dllmain.obj
+         Debug\point.obj
+         Debug\stdafx.obj
+            正在创建库 E:\VS2010Storage\mydll\Debug\mydll.lib 和对象 E:\VS2010Storage\mydll\Debug\mydll.exp
+     1>circle.obj : warning LNK4217: 本地定义的符号 ??0point@@QAE@MM@Z (public: __thiscall point::point(float,float)) 在函数 "public: __thiscall circle::circle(void)" (??0circle@@QAE@XZ) 中导入
+     1>circle.obj : warning LNK4217: 本地定义的符号 ??0point@@QAE@XZ (public: __thiscall point::point(void)) 在函数 "public: __thiscall circle::circle(void)" (??0circle@@QAE@XZ) 中导入
+       Manifest:
+         正在删除文件“Debug\mydll.dll.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\mydll.dll.embed.manifest" /manifest Debug\mydll.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mydll.dll.embed.manifest.res" Debug\mydll_manifest.rc 
+       LinkEmbedManifest:
+         e:\VS2010SetupFile\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010Storage\mydll\Debug\mydll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mydll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010Storage\mydll\Debug\mydll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010Storage\mydll\Debug\mydll.lib" /MACHINE:X86 /DLL Debug\mydll.dll.embed.manifest.res
+         Debug\circle.obj
+         Debug\dllmain.obj
+         Debug\point.obj
+         Debug\stdafx.obj
+            正在创建库 E:\VS2010Storage\mydll\Debug\mydll.lib 和对象 E:\VS2010Storage\mydll\Debug\mydll.exp
+     1>circle.obj : warning LNK4217: 本地定义的符号 ??0point@@QAE@MM@Z (public: __thiscall point::point(float,float)) 在函数 "public: __thiscall circle::circle(void)" (??0circle@@QAE@XZ) 中导入
+     1>circle.obj : warning LNK4217: 本地定义的符号 ??0point@@QAE@XZ (public: __thiscall point::point(void)) 在函数 "public: __thiscall circle::circle(void)" (??0circle@@QAE@XZ) 中导入
+         mydll.vcxproj -> E:\VS2010Storage\mydll\Debug\mydll.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\mydll.unsuccessfulbuild”。
+         正在对“Debug\mydll.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VS2010Storage\mydll\mydll\mydll.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.15

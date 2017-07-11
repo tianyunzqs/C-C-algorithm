@@ -1,0 +1,12 @@
+1.1.1:
+ In kdtree.c/kdtree.h:
+   * (12/14/2006) [API] Removed kd_root structure and kd_root_node(); now uses only kd_node
+   * (12/14/2006) Fixed kdtree_release() to get rid of big memory leak
+   * (12/14/2006) [API] Changed kdtree_release() prototype
+   * (12/14/2006) Added bbf_data structure to avoid potential data loss in bbf search
+   * (01/19/2007) Fixed memory leak in kdtree_build()
+   * (03/30/2007) Fixed pq insertion bug in explore_to_leaf()
+ In sift.c:
+   * (12/14/2006) Fixed significant bug in interp_hist_entry()
+   * (12/14/2006) Fixed memory leak stemming from scale_space_extrema()
+   * (01/19/2007) Fixed memory leak in calc_feature_oris()
